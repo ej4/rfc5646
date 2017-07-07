@@ -19,7 +19,7 @@ defmodule RFC5646.Mixfile do
   end
 
   defp deps do
-    [{:ex_doc, "~> 0.16"}]
+    [{:ex_doc, "~> 0.16", only: :dev}]
   end
   
   defp description do
