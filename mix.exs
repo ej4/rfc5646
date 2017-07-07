@@ -6,7 +6,7 @@ defmodule RFC5646.Mixfile do
      version: "0.1.0",
      name: "RFC5646",
      description: description(),
-     source_url: "https://github.com/adamnbowen/rfc5646",
+     source_url: "https://github.com/ej4/rfc5646",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -33,7 +33,7 @@ defmodule RFC5646.Mixfile do
       name: :rfc5646,
       maintainers: ["Adam Bowen"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/adamnbowen/rfc5646"}
+      links: %{"GitHub" => "https://github.com/ej4/rfc5646"}
     ]
   end
 end
